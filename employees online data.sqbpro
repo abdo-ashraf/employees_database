@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/abdoa/Desktop/new.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1069"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,7:mainmyTable"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="myTable" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="67"/><column index="3" value="121"/><column index="4" value="84"/><column index="5" value="221"/><column index="6" value="95"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE myTable (
+  id INTEGER,
+  first TEXT default NULL,
+  last TEXT default NULL,
+  phone TEXT default NULL,
+  email TEXT default NULL,
+  numberrange mediumint,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Reese&quot;,&quot;Irma Pennington&quot;,&quot;01485777949&quot;,&quot;fermentum.arcu@hotmail.com&quot;,1),
+  (&quot;Chancellor&quot;,&quot;McKenzie Garner&quot;,&quot;01046748584&quot;,&quot;phasellus.vitae@yahoo.coedu&quot;,2),
+  (&quot;Britanni&quot;,&quot;Felicia Galloway&quot;,&quot;01618283648&quot;,&quot;dictum.ultricies@protonmail.com&quot;,3),
+  (&quot;Melinda&quot;,&quot;Mara Sanford&quot;,&quot;01884326618&quot;,&quot;integer.urna@aol.net&quot;,4),
+  (&quot;Henry&quot;,&quot;Jessamine Lynch&quot;,&quot;01971374869&quot;,&quot;ornare.lectus.justo@protonmail.net&quot;,5),
+  (&quot;Libby&quot;,&quot;Cairo Booth&quot;,&quot;01187793097&quot;,&quot;consectetuer.rhoncus@hotmail.net&quot;,6),
+  (&quot;Nathan&quot;,&quot;Audra Moss&quot;,&quot;01148747954&quot;,&quot;aliquet.proin@aol.net&quot;,7),
+  (&quot;Constance&quot;,&quot;Christopher Hayes&quot;,&quot;01515954672&quot;,&quot;aliquam.auctor@yahoo.com&quot;,8),
+  (&quot;Linus&quot;,&quot;Josephine Bradford&quot;,&quot;01753286373&quot;,&quot;egestas@yahoo.net&quot;,9),
+  (&quot;Delilah&quot;,&quot;Cailin Sawyer&quot;,&quot;01640225515&quot;,&quot;auctor.mauris.vel@protonmail.org&quot;,10);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Phelan&quot;,&quot;Olga Everett&quot;,&quot;01515763421&quot;,&quot;pulvinar.arcu@protonmail.com&quot;,11),
+  (&quot;Halla&quot;,&quot;Shoshana Joyce&quot;,&quot;01856845350&quot;,&quot;nunc.lectus.pede@protonmail.org&quot;,12),
+  (&quot;Marny&quot;,&quot;Ivan Crane&quot;,&quot;01335497742&quot;,&quot;cubilia@yahoo.org&quot;,13),
+  (&quot;Amela&quot;,&quot;Keely Hyde&quot;,&quot;01760689655&quot;,&quot;rutrum.justo@yahoo.net&quot;,14),
+  (&quot;Ryan&quot;,&quot;Dieter Brock&quot;,&quot;01525147142&quot;,&quot;risus.donec.egestas@outlook.coedu&quot;,15),
+  (&quot;Randall&quot;,&quot;Jerome Thompson&quot;,&quot;01236128725&quot;,&quot;senectus.et@google.net&quot;,16),
+  (&quot;Inez&quot;,&quot;Shana Kaufman&quot;,&quot;01943261632&quot;,&quot;purus.in@google.org&quot;,17),
+  (&quot;Buffy&quot;,&quot;Maggie Armstrong&quot;,&quot;01968174196&quot;,&quot;aenean@outlook.org&quot;,18),
+  (&quot;Mikayla&quot;,&quot;Yuli Gallagher&quot;,&quot;01295948553&quot;,&quot;enim.nec.tempus@aol.net&quot;,19),
+  (&quot;Moana&quot;,&quot;Thomas Noel&quot;,&quot;01308428869&quot;,&quot;nibh.enim@google.com&quot;,20);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Teegan&quot;,&quot;Cullen Mcintyre&quot;,&quot;01543237142&quot;,&quot;duis.cursus@google.coedu&quot;,21),
+  (&quot;Allegra&quot;,&quot;Rylee Shepard&quot;,&quot;01891736155&quot;,&quot;at.auctor@protonmail.coedu&quot;,22),
+  (&quot;Ocean&quot;,&quot;Macaulay Rodriguez&quot;,&quot;01882388916&quot;,&quot;molestie.in@protonmail.coedu&quot;,23),
+  (&quot;Caesar&quot;,&quot;Destiny Wiggins&quot;,&quot;01867963287&quot;,&quot;ornare.tortor.at@yahoo.com&quot;,24),
+  (&quot;Inez&quot;,&quot;Lisandra Houston&quot;,&quot;01765174211&quot;,&quot;sed.tortor@icloud.coedu&quot;,25),
+  (&quot;Sylvia&quot;,&quot;Ariana Wilder&quot;,&quot;01799222578&quot;,&quot;dignissim.magna@aol.org&quot;,26),
+  (&quot;Nichole&quot;,&quot;Walker Nguyen&quot;,&quot;01129737749&quot;,&quot;fusce@yahoo.org&quot;,27),
+  (&quot;Alexis&quot;,&quot;Clinton Sanford&quot;,&quot;01477556715&quot;,&quot;donec@protonmail.net&quot;,28),
+  (&quot;Carolyn&quot;,&quot;Aiko Erickson&quot;,&quot;01832578365&quot;,&quot;faucibus@aol.org&quot;,29),
+  (&quot;Wyatt&quot;,&quot;Wylie Emerson&quot;,&quot;01268085375&quot;,&quot;a@outlook.net&quot;,30);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Nerea&quot;,&quot;Charissa Lopez&quot;,&quot;01647387677&quot;,&quot;enim.nec@icloud.coedu&quot;,31),
+  (&quot;Bert&quot;,&quot;Ruby Rush&quot;,&quot;01266735787&quot;,&quot;urna@google.net&quot;,32),
+  (&quot;Maxwell&quot;,&quot;Quyn Montoya&quot;,&quot;01333626531&quot;,&quot;ut.ipsum@icloud.com&quot;,33),
+  (&quot;Damian&quot;,&quot;Carol Lawson&quot;,&quot;01693718302&quot;,&quot;integer.eu@protonmail.coedu&quot;,34),
+  (&quot;Robert&quot;,&quot;Thane Heath&quot;,&quot;01550177625&quot;,&quot;et.eros.proin@hotmail.org&quot;,35),
+  (&quot;Pearl&quot;,&quot;Nita Drake&quot;,&quot;01646521308&quot;,&quot;ante.ipsum.primis@google.com&quot;,36),
+  (&quot;Joel&quot;,&quot;Yen Willis&quot;,&quot;01722413893&quot;,&quot;nullam.enim.sed@protonmail.org&quot;,37),
+  (&quot;Tara&quot;,&quot;Myra Maddox&quot;,&quot;01893417391&quot;,&quot;sed@aol.com&quot;,38),
+  (&quot;Amela&quot;,&quot;Maya Monroe&quot;,&quot;01094573116&quot;,&quot;enim@hotmail.net&quot;,39),
+  (&quot;Zephania&quot;,&quot;Rhoda Flowers&quot;,&quot;01426759416&quot;,&quot;nec.urna@yahoo.net&quot;,40);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Charles&quot;,&quot;Shad Hood&quot;,&quot;01828538786&quot;,&quot;libero@hotmail.net&quot;,41),
+  (&quot;Mary&quot;,&quot;Tarik Mullins&quot;,&quot;01800323338&quot;,&quot;nullam.enim@aol.coedu&quot;,42),
+  (&quot;Nash&quot;,&quot;Brenna Hoover&quot;,&quot;01604528373&quot;,&quot;tempor.lorem@yahoo.org&quot;,43),
+  (&quot;Barbara&quot;,&quot;Martina Young&quot;,&quot;01332960502&quot;,&quot;feugiat.non@aol.coedu&quot;,44),
+  (&quot;Sharon&quot;,&quot;Giacomo Prince&quot;,&quot;01077726336&quot;,&quot;tempor.diam@protonmail.net&quot;,45),
+  (&quot;Jamal&quot;,&quot;Adrienne Warner&quot;,&quot;01424236865&quot;,&quot;eget.laoreet@yahoo.net&quot;,46),
+  (&quot;Willow&quot;,&quot;Marvin Bradford&quot;,&quot;01233735022&quot;,&quot;rutrum.urna@outlook.net&quot;,47),
+  (&quot;Dahlia&quot;,&quot;Riley Stevenson&quot;,&quot;01357845715&quot;,&quot;non.feugiat@protonmail.com&quot;,48),
+  (&quot;Cullen&quot;,&quot;Hope Sweeney&quot;,&quot;01317872642&quot;,&quot;vulputate.nisi@icloud.org&quot;,49),
+  (&quot;Judith&quot;,&quot;Venus Vaughan&quot;,&quot;01119712612&quot;,&quot;mauris.morbi.non@aol.org&quot;,50);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Linda&quot;,&quot;Elijah Hopper&quot;,&quot;01770853170&quot;,&quot;quis@outlook.coedu&quot;,51),
+  (&quot;Jade&quot;,&quot;Cade Bowman&quot;,&quot;01542057717&quot;,&quot;ut@yahoo.coedu&quot;,52),
+  (&quot;Drake&quot;,&quot;Sacha Barry&quot;,&quot;01814788293&quot;,&quot;maecenas.ornare@protonmail.coedu&quot;,53),
+  (&quot;Xander&quot;,&quot;Yasir Rich&quot;,&quot;01766756122&quot;,&quot;tristique.neque.venenatis@aol.coedu&quot;,54),
+  (&quot;Caleb&quot;,&quot;Mari Buck&quot;,&quot;01192565546&quot;,&quot;pede@yahoo.coedu&quot;,55),
+  (&quot;Thaddeus&quot;,&quot;Robin Burt&quot;,&quot;01157444685&quot;,&quot;pellentesque@protonmail.org&quot;,56),
+  (&quot;Clinton&quot;,&quot;Xena Walton&quot;,&quot;01706822263&quot;,&quot;montes@protonmail.net&quot;,57),
+  (&quot;Keaton&quot;,&quot;Hiram Mueller&quot;,&quot;01668174216&quot;,&quot;elementum@protonmail.net&quot;,58),
+  (&quot;Valentine&quot;,&quot;Ferdinand Yang&quot;,&quot;01763623443&quot;,&quot;lorem.eget@aol.coedu&quot;,59),
+  (&quot;Gabriel&quot;,&quot;Randall Moses&quot;,&quot;01829552597&quot;,&quot;cursus.non@protonmail.com&quot;,60);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Maggie&quot;,&quot;Hop Owen&quot;,&quot;01577845214&quot;,&quot;sed.tortor.integer@google.com&quot;,61),
+  (&quot;Flynn&quot;,&quot;Gillian Gray&quot;,&quot;01829773361&quot;,&quot;cras.convallis@protonmail.net&quot;,62),
+  (&quot;Kamal&quot;,&quot;Tatum Norris&quot;,&quot;01630374212&quot;,&quot;quis.urna.nunc@yahoo.net&quot;,63),
+  (&quot;Cassidy&quot;,&quot;Tiger Ramirez&quot;,&quot;01102501313&quot;,&quot;non.lobortis.quis@protonmail.net&quot;,64),
+  (&quot;Felix&quot;,&quot;Brian Aguilar&quot;,&quot;01820412371&quot;,&quot;placerat@google.coedu&quot;,65),
+  (&quot;Melvin&quot;,&quot;Louis Terry&quot;,&quot;01506199626&quot;,&quot;in.tincidunt@google.coedu&quot;,66),
+  (&quot;Jade&quot;,&quot;Maile Church&quot;,&quot;01508023471&quot;,&quot;non.vestibulum@outlook.com&quot;,67),
+  (&quot;Dacey&quot;,&quot;Adrian Molina&quot;,&quot;01389762101&quot;,&quot;nec.enim@aol.com&quot;,68),
+  (&quot;Jerry&quot;,&quot;Denton Donaldson&quot;,&quot;01678980256&quot;,&quot;netus.et@outlook.com&quot;,69),
+  (&quot;Audrey&quot;,&quot;Jameson Fox&quot;,&quot;01001581455&quot;,&quot;nunc.sit@google.org&quot;,70);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Lenore&quot;,&quot;Jermaine Acosta&quot;,&quot;01826523872&quot;,&quot;sem.mollis.dui@protonmail.com&quot;,71),
+  (&quot;Lucian&quot;,&quot;Colton Beck&quot;,&quot;01634572947&quot;,&quot;lacus.nulla@protonmail.net&quot;,72),
+  (&quot;Kristen&quot;,&quot;Rogan Mcdaniel&quot;,&quot;01011591174&quot;,&quot;duis@protonmail.net&quot;,73),
+  (&quot;Lilah&quot;,&quot;Brian Hoover&quot;,&quot;01437587687&quot;,&quot;magna.nam@protonmail.org&quot;,74),
+  (&quot;Blythe&quot;,&quot;Maxwell Huber&quot;,&quot;01482310552&quot;,&quot;magna.et.ipsum@google.org&quot;,75),
+  (&quot;Xena&quot;,&quot;Baker Townsend&quot;,&quot;01026971276&quot;,&quot;duis.at@yahoo.net&quot;,76),
+  (&quot;Gloria&quot;,&quot;Burke Goff&quot;,&quot;01139480410&quot;,&quot;pede.cras@hotmail.com&quot;,77),
+  (&quot;Xenos&quot;,&quot;Cade Carter&quot;,&quot;01686546722&quot;,&quot;vitae.erat@protonmail.com&quot;,78),
+  (&quot;Martin&quot;,&quot;Lara Jenkins&quot;,&quot;01703849876&quot;,&quot;aliquet.odio@yahoo.coedu&quot;,79),
+  (&quot;Rachel&quot;,&quot;Iris Fry&quot;,&quot;01630711132&quot;,&quot;aliquet.proin@hotmail.net&quot;,80);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Jameson&quot;,&quot;India Lang&quot;,&quot;01843541141&quot;,&quot;duis@yahoo.com&quot;,81),
+  (&quot;Ian&quot;,&quot;Teagan William&quot;,&quot;01322103059&quot;,&quot;dolor.dapibus@yahoo.coedu&quot;,82),
+  (&quot;Ramona&quot;,&quot;Herman Travis&quot;,&quot;01967342474&quot;,&quot;mattis.ornare@icloud.org&quot;,83),
+  (&quot;Vaughan&quot;,&quot;Kibo Villarreal&quot;,&quot;01858061148&quot;,&quot;in.faucibus@protonmail.com&quot;,84),
+  (&quot;Fletcher&quot;,&quot;Sonya Roberts&quot;,&quot;01119614263&quot;,&quot;pede@outlook.org&quot;,85),
+  (&quot;Vera&quot;,&quot;Callie Maxwell&quot;,&quot;01856533443&quot;,&quot;in.lobortis@icloud.org&quot;,86),
+  (&quot;Joel&quot;,&quot;Courtney Schwartz&quot;,&quot;01709808009&quot;,&quot;metus.vitae.velit@outlook.net&quot;,87),
+  (&quot;Maryam&quot;,&quot;Quamar Elliott&quot;,&quot;01805477217&quot;,&quot;gravida.sagittis.duis@outlook.com&quot;,88),
+  (&quot;Jayme&quot;,&quot;Jordan Rutledge&quot;,&quot;01677354712&quot;,&quot;libero.nec.ligula@google.coedu&quot;,89),
+  (&quot;Flynn&quot;,&quot;Tiger Petersen&quot;,&quot;01749243941&quot;,&quot;sit@icloud.com&quot;,90);
+INSERT INTO myTable (first,last,phone,email,numberrange)
+VALUES
+  (&quot;Adele&quot;,&quot;Gloria Conner&quot;,&quot;01381265449&quot;,&quot;cursus.vestibulum@icloud.coedu&quot;,91),
+  (&quot;Cadman&quot;,&quot;Meghan Tucker&quot;,&quot;01834145973&quot;,&quot;ut.aliquam.iaculis@google.net&quot;,92),
+  (&quot;Alvin&quot;,&quot;Steel Stokes&quot;,&quot;01551769665&quot;,&quot;luctus.curabitur@icloud.coedu&quot;,93),
+  (&quot;Jamal&quot;,&quot;Autumn Hendrix&quot;,&quot;01237047406&quot;,&quot;mollis@outlook.net&quot;,94),
+  (&quot;Aladdin&quot;,&quot;Ava Nelson&quot;,&quot;01208643622&quot;,&quot;dictum.phasellus@outlook.coedu&quot;,95),
+  (&quot;Cecilia&quot;,&quot;Jared Tyson&quot;,&quot;01676633412&quot;,&quot;suscipit.est@aol.coedu&quot;,96),
+  (&quot;Kiayada&quot;,&quot;Anthony Malone&quot;,&quot;01864748178&quot;,&quot;fringilla.ornare.placerat@outlook.net&quot;,97),
+  (&quot;Juliet&quot;,&quot;Berk Mcintosh&quot;,&quot;01596343455&quot;,&quot;sapien.nunc.pulvinar@hotmail.com&quot;,98),
+  (&quot;Wang&quot;,&quot;Indira Nelson&quot;,&quot;01171175887&quot;,&quot;sociosqu.ad@outlook.com&quot;,99),
+  (&quot;Galvin&quot;,&quot;Colton O'brien&quot;,&quot;01737788101&quot;,&quot;ornare.in.faucibus@protonmail.coedu&quot;,100);
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
